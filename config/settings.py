@@ -93,7 +93,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tpdb',
         'USER': 'root',
-        'PASSWORD': 'TPpass',
+        'PASSWORD': 'rootpassword',
         'HOST': 'localhost',
         'PORT': '3306',
         'ATOMIC_REQUESTS': 'true', #トランザクションの有効範囲をリクエストの開始から終了までに設定
